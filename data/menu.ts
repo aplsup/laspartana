@@ -9,9 +9,10 @@ export interface Pizza {
   tags?: Tag[]
 }
 
-enum Tag {
+export enum Tag {
   BIANCA = "bianca",
-  ROSSA = "rossa"
+  ROSSA = "rossa",
+  NUOVE = "nuove"
 }
 
 const menu: Menu = {
@@ -246,6 +247,120 @@ const menu: Menu = {
       name: "Reale",
       ingredients: ["pomodoro", "mozzarella", "crudo", "burrata"],
     },
+    {
+      name: "Bianca 1",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella bufala", "lardo", "pomodorini"],
+      price: 700,
+    },
+    {
+      name: "Bianca 2",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "gorgonzola", "pesto", "pomodorini"],
+      price: 700,
+    },
+    {
+      name: "Controcorrente",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella"],
+      price: 800,
+    },
+    {
+      name: "Genovese",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "pesto"],
+      price: 600,
+    },
+    {
+      name: "Ghiottona",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "tonno", "cipolla", "gorgonzola"],
+      price: 700,
+    },
+    {
+      name: "Gustosa",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "gamberetti", "mascarpone", "rucola"],
+      price: 800,
+    },
+    {
+      name: "Formaggi",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "gorgonzola", "stracchino"],
+      price: 650,
+    },
+    {
+      name: "Favola",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "cotto", "crema di tartufo"],
+      price: 750,
+    },
+    {
+      name: "Massi",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "stracchino", "pancetta"],
+      price: 650,
+    },
+    {
+      name: "Menta",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "stracchino", "cipolla", "pesto"],
+      price: 650,
+    },
+    {
+      name: "Primavera",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "fiori di zucca", "acciughe", "burrata"],
+      price: 800,
+    },
+    {
+      name: "Ruffiana",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "gorgonzola", "pere", "noci"],
+      price: 800,
+    },
+    {
+      name: "Spartana",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "stracchino", "mortadella"],
+      price: 650,
+    },
+    {
+      name: "Tiziana",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "crema di tartufo", "grana", "crema di aceto"],
+      price: 800,
+    },
+    {
+      name: "Viziata",
+      tags: [Tag.BIANCA],
+      ingredients: ["mozzarella", "crema di tartufo", "porcini"],
+      price: 800,
+    },
+    {
+      tags: [Tag.NUOVE],
+      price: 900,
+      name: "Lagotto",
+      ingredients: ["fior di latte", "mortadella tartufata", "pistacchio"]
+    },
+    {
+      tags: [Tag.NUOVE],
+      price: 900,
+      name: "Marco",
+      ingredients: ["fior di latte", "pomodoro", "olio agliato", "melanzane", "crudo", "grana", "basilico"]
+    },
+    {
+      tags: [Tag.NUOVE],
+      price: 700,
+      name: "Del Sud",
+      ingredients: ["fior di latte", "salsiccia", "friarielli"]
+    },
+    {
+      tags: [Tag.NUOVE],
+      price: 800,
+      name: "S.Michele 10",
+      ingredients: ["fior di latte", "pomodorini gialli", "nduja"]
+    }
   ]
 }
 
