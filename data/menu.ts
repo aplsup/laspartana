@@ -173,7 +173,7 @@ const menu: Menu = {
       price: 600,
       tags: [Tag.ROSSA],
       name: "Margherita Light",
-      ingredients: ["pomodoro", "mozzarella"],
+      ingredients: ["pomodoro", "mozzarella di bufala"],
     },
     {
       price: 400,
