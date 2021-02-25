@@ -2,12 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
-const images = [
-    { src: '/spartana_1.jpg', alt: "Farinata e salsa di pomodoro" },
-    { src: '/spartana_2.jpg', alt: "Pizza acciughe, bufala e fiori di zucca"},
-    { src: '/spartana_3.jpg', alt: "Impasto pizza"},
-]
+import { images } from '../data/image';
 
 export default function Home() {
     return (
