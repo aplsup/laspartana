@@ -262,7 +262,7 @@ const menu: Menu = {
     {
       name: "Controcorrente",
       tags: [Tag.BIANCA],
-      ingredients: ["mozzarella"],
+      ingredients: ["mozzarella", "mascarpone", "salmone", "rucola"],
       price: 800,
     },
     {
