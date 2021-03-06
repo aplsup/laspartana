@@ -3,12 +3,16 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { images } from '../data/image';
+import {seo} from "../data/seo";
+
+const seoHome = seo;
 
 export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>La Spartana - Pizzeria</title>
+                <title>{seoHome.pageTitle}</title>
+                <meta name={"description"} content={seoHome.description} />
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
