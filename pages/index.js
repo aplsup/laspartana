@@ -13,6 +13,7 @@ export default function Home() {
             <Head>
                 <title>{seoHome.pageTitle}</title>
                 <meta name={"description"} content={seoHome.description} />
+                <meta name="google-site-verification" content={seo.googleSiteVerification} />
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
