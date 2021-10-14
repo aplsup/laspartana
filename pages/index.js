@@ -19,7 +19,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    🍕 La Spartana
+                    🍕 Pizzeria La Spartana
                 </h1>
 
                 <div className={styles.grid}>
@@ -40,7 +40,7 @@ export default function Home() {
             </main>
 
             <footer className={styles.footer}>
-                <div><p>Non usiamo <i>Cookies 🍪</i>, al limite li abbiamo tra i dolci del giorno.</p></div>
+                <div><p>Non utilizziamo <i>Cookies 🍪</i>, ma potresti trovarli tra i dolci del giorno.</p></div>
             </footer>
         </div>
     )
