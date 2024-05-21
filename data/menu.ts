@@ -20,7 +20,7 @@ const menu: Menu = {
     {
       name: "4 Stagioni",
       ingredients: ["pomodoro, mozzarella", "cotto", "funghi", "carciofi"],
-      price: 750,
+      price: 800,
       tags: [Tag.ROSSA],
     },
     {
@@ -36,13 +36,13 @@ const menu: Menu = {
       ingredients: ["pomodoro", "mozzarella", "stracchino", "radicchio"],
     },
     {
-      price: 850,
+      price: 900,
       tags: [Tag.ROSSA],
       name: "Baciami",
       ingredients: ["pomodoro", "mozzarella", "gorgonzola", "salame piccante", "aglio", "cipolla"],
     },
     {
-      price: 900,
+      price: 1000,
       tags: [Tag.ROSSA],
       name: "Balsamica",
       ingredients: ["pomodoro", "mozzarella", "crudo", "rucola", "crema di aceto"],
@@ -94,7 +94,7 @@ const menu: Menu = {
       ingredients: ["pomodoro, mozzarella", "crudo", "porcini"],
     },
     {
-      price: 750,
+      price: 800,
       tags: [Tag.ROSSA],
       name: "Capricciosa",
       ingredients: [
@@ -119,7 +119,7 @@ const menu: Menu = {
       ingredients: ["pomodoro", "mozzarella", "cipolla"],
     },
     {
-      price: 950,
+      price: 1000,
       tags: [Tag.ROSSA],
       name: "Dea",
       ingredients: ["pomodoro", "mozzarella", "crudo", "porcini", "rucola", "pomodorini"],
@@ -164,7 +164,7 @@ const menu: Menu = {
       ],
     },
     {
-      price: 600,
+      price: 650,
       tags: [Tag.ROSSA],
       name: "Margherita",
       ingredients: ["pomodoro", "mozzarella"],
@@ -176,7 +176,7 @@ const menu: Menu = {
       ingredients: ["pomodoro", "mozzarella di bufala"],
     },
     {
-      price: 500,
+      price: 550,
       tags: [Tag.ROSSA],
       name: "Marinara",
       ingredients: ["pomodoro", "aglio", "olio"],
@@ -242,12 +242,6 @@ const menu: Menu = {
       ingredients: ["pomodoro", "mozzarella", "pomodori secchi"],
     },
     {
-      price: 900,
-      tags: [Tag.ROSSA],
-      name: "Reale",
-      ingredients: ["pomodoro", "mozzarella", "crudo", "burrata"],
-    },
-    {
       name: "Bianca 1",
       tags: [Tag.BIANCA],
       ingredients: ["mozzarella bufala", "lardo", "pomodorini"],
@@ -293,7 +287,7 @@ const menu: Menu = {
       name: "Favola",
       tags: [Tag.BIANCA],
       ingredients: ["mozzarella", "cotto", "crema di tartufo"],
-      price: 850,
+      price: 900,
     },
     {
       name: "Massi",
@@ -311,7 +305,7 @@ const menu: Menu = {
       name: "Primavera",
       tags: [Tag.BIANCA],
       ingredients: ["mozzarella", "fiori di zucca", "acciughe", "burrata"],
-      price: 900,
+      price: 1050,
     },
     {
       name: "Ruffiana",
@@ -351,7 +345,7 @@ const menu: Menu = {
     },
     {
       tags: [Tag.NUOVE],
-      price: 800,
+      price: 850,
       name: "Del Sud",
       ingredients: ["fior di latte", "salsiccia", "friarielli"]
     },
@@ -360,6 +354,24 @@ const menu: Menu = {
       price: 900,
       name: "S.Michele 10",
       ingredients: ["fior di latte", "pomodorini gialli", "nduja"]
+    },
+    {
+      tags: [Tag.NUOVE],
+      price: 1100,
+      name: "Reale",
+      ingredients: ["pomodoro", "mozzarella", "crudo", "burrata"]
+    },
+    {
+      tags: [Tag.NUOVE],
+      price:  1000,
+      name: "Chic",
+      ingredients: ["pomodoto", "mozzarella", "capperi", "burrata", "acciughe"]
+    },
+    {
+      tags: [Tag.BIANCA],
+      price: 1000,
+      name: "Christian",
+      ingredients: ["mozzarella", "gorgonzola", "porcini", "cotto", "pomodorini"]
     }
   ]
 }
